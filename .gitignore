@@ -1,0 +1,13 @@
+# Raw TALIS microdata (download separately from the OECD — see README)
+datasets/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+**/.DS_Store
