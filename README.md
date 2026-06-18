@@ -1,10 +1,9 @@
 # What keeps Dutch teachers in the classroom?
 
-**Modifiable working conditions and teachers' intention to leave the profession — OECD TALIS 2024, Netherlands.**
+**Modifiable working conditions and teachers' intention to leave the profession | OECD TALIS 2024, Netherlands.**
 
-The Dutch teacher shortage (*lerarentekort*) is usually discussed as *"teachers are
-unhappy."* The more useful question for schools and policymakers is: **which conditions
-that we can actually change predict a teacher thinking about leaving?**
+Exploring the Dutch teacher shortage (*lerarentekort*, my research interests lie in understanding **which conditions,
+that we can actually change, predict a teacher thinking about leaving?**
 
 This analysis separates **modifiable working conditions** (stress, mental-health strain,
 work–life balance, recognition, autonomy, pay, leadership, classroom disruption,
@@ -16,7 +15,7 @@ workload) from **fixed background characteristics** (age, experience, whether te
 
 Among **2,576 Dutch secondary teachers**, **≈22% agree or strongly agree** that they
 *"wonder whether it would be better to choose another profession"* (TALIS item TT4G27-block,
-`TT4G78F`). The risk is not evenly spread, and — crucially — it tracks **strain and
+`TT4G78F`). The risk is not evenly spread, and it tracks **strain and
 recognition far more than pay or autonomy.**
 
 **1. It rises steeply with stress, and peaks mid-career.**
@@ -50,7 +49,7 @@ Attrition risk is highest in *mid-career*, not (as often assumed) only among new
 
 **Takeaway:** the strongest modifiable predictors are **psychological strain**
 (mental-health impact and work stress) and **feeling valued by society**. The levers that
-dominate the public debate — **salary, autonomy, and school leadership** — show **no
+dominate the public debate, **salary, autonomy, and school leadership**, show **no
 significant association** with considering leaving once strain and recognition are
 accounted for. This points retention policy toward *workload/strain reduction and
 professional respect* rather than pay or autonomy alone.
@@ -72,7 +71,7 @@ participating OECD countries. This analysis is restricted to the **Netherlands**
 Data must be downloaded from the OECD (see *Reproduce*); microdata are not redistributed here.
 
 **Outcome distribution.** The primary outcome (`TT4G78F`) — *"I wonder whether it would
-be better to choose another profession"* — is a 4-point Likert scale (1 = strongly disagree
+be better to choose another profession"*, is a 4-point Likert scale (1 = strongly disagree
 to 4 = strongly agree). Weighted prevalence of *agree / strongly agree* (the "considering
 leaving" group): **≈ 22%**.
 
@@ -96,7 +95,7 @@ analysis. Gender and contract tenure are fully suppressed in the Netherlands fil
   Netherlands (`CNTRY == "NLD"`), lower-secondary teachers, n = 2,576. TALIS surveys
   **lower-secondary (ISCED 2)** teachers; the labour-market context cited here (the 5.1→3.5%
   shortage, *tekortvakken*) covers **secondary education (VO) as a whole**, so the sample is
-  treated as informative about — not identical to — the full VO population. Analytic n varies
+  treated as informative about the full VO population. Analytic n varies
   by item: ≈2,250 for the universal base model, 1,460–1,505 for each rotated lever.
 - **Outcome:** `TT4G78F` — *"I wonder whether it would be better to choose another
   profession"* (1–4). Primary model dichotomises *agree / strongly agree* = "considering
@@ -120,18 +119,17 @@ analysis. Gender and contract tenure are fully suppressed in the Netherlands fil
   fully suppressed in the NL file and are excluded.
 - **Robustness:** (1) an ordinal proportional-odds model on the full 4-point item
   reproduces the direction and significance of the main effects; (2) a second, independent
-  outcome — `TT4G74`, *years the teacher intends to keep teaching* — correlates negatively
+  outcome— `TT4G74`, *years the teacher intends to keep teaching*— correlates negatively
   with stress, consistent with the primary result.
 
 ### Limitations
-Cross-sectional self-report: associations, not causes. "Job harms mental health" is
-conceptually close to the outcome and partly mediates rather than confounds. Rotated-form
-subsamples reduce power for the job-design levers, so some null results may reflect
-limited power rather than true absence of effect. Age and experience are strongly
-collinear and both enter the base model, which inflates the variance on each — their
-individual coefficients should be read jointly, not as independent effects. Experience is
-also modelled as a single linear term, so the descriptive mid-career peak (highest at
-11–20 years) is not formally tested and is reported as a signal only.
+Cross-sectional self-report: "Job harms mental health" is conceptually close to the outcome 
+and partly mediates rather than confounds. Rotated-form subsamples reduce power for the 
+job-design levers, so some null results may reflect limited power rather than true absence of effect. 
+Age and experience are strongly collinear and both enter the base model, which inflates the variance 
+on each- their individual coefficients should be read jointly, instead if as independent effects. Experience is
+also modelled as a single linear term, so the descriptive mid-career peak (highest at 11–20 years) is not 
+formally tested and is reported as a signal only.
 
 ---
 
