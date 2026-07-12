@@ -11,3 +11,6 @@ venv/
 # macOS
 .DS_Store
 **/.DS_Store
+
+# Superseded by Policy brief.pdf
+brief.md
