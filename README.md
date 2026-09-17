@@ -124,11 +124,15 @@ analysis. Gender and contract tenure are fully suppressed in the Netherlands fil
 
 ### Limitations
 Cross-sectional self-report: "Job harms mental health" is conceptually close to the outcome 
-and partly mediates rather than confounds. Rotated-form subsamples reduce power for the 
-job-design levers, so some null results may reflect limited power rather than true absence of effect. 
+and partly mediates rather than confounds. 
+
+Rotated-form subsamples reduce power for the job-design levers, so some null results may reflect 
+limited power rather than true absence of effect. 
+
 Age and experience are strongly collinear and both enter the base model, which inflates the variance 
-on each- their individual coefficients should be read jointly, instead if as independent effects. Experience is
-also modelled as a single linear term, so the descriptive mid-career peak (highest at 11–20 years) is not 
+on each- their individual coefficients should be read jointly, instead if as independent effects. 
+
+Experience is also modelled as a single linear term, so the descriptive mid-career peak (highest at 11–20 years) is not 
 formally tested and is reported as a signal only.
 
 ---
