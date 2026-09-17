@@ -123,9 +123,6 @@ analysis. Gender and contract tenure are fully suppressed in the Netherlands fil
   with stress, consistent with the primary result.
 
 ### Limitations
-Cross-sectional self-report: "Job harms mental health" is conceptually close to the outcome 
-and partly mediates rather than confounds. 
-
 Rotated-form subsamples reduce power for the job-design levers, so some null results may reflect 
 limited power rather than true absence of effect. 
 
